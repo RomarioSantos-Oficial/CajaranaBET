@@ -14,7 +14,7 @@
 .header a {
     align-items: center;
     font-size: 2rem;
-    color: var(--gray3);
+    color: var(--gray2);
     text-decoration: none;
     padding: 1.2rem;
     cursor: pointer;
@@ -22,7 +22,7 @@
 }
 
 .header a:hover {
-    color: var(--white);
+    color: var(--gray3);
 }
 
 .logo {
@@ -44,7 +44,7 @@
 
 .icons {
     display: flex;
-    color: var(--gray3);
+    color: var(--gray2);
   
 }
 
@@ -56,7 +56,7 @@
 }
 
 .icon:hover {
-    color: var(--white);
+    color: var(--gray3);
 }
 
 .buttonsHome {

@@ -1,0 +1,94 @@
+.header {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    background-color: var(--green);
+    width: 100%;
+    gap: 1rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header a {
+    align-items: center;
+    font-size: 2rem;
+    color: var(--gray3);
+    text-decoration: none;
+    padding: 1.2rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.header a:hover {
+    color: var(--white);
+}
+
+.logo {
+    cursor: pointer;
+    height: 4rem;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Scale the logo up by 20% on hover */
+}
+
+.buscar1 {
+    display: flex;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    color: var(--gray3);
+  
+}
+
+.icon {
+    padding: 0.3rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.icon:hover {
+    color: var(--white);
+}
+
+.buttonsHome {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.buttonsHome .entrar,
+.buttonsHome .registar {
+    color: var(--gray2);
+    width: 160px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: var(--yellow);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: .15rem;
+    transition: 0.5s;
+}
+
+.buttonsHome .entrar:hover {
+    background-color: var(--Blightblue);
+    color: var(--white);
+}
+
+.buttonsHome .registar:hover {
+    background-color: var(--Bred);
+    color: var(--white);
+}

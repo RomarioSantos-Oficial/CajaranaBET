@@ -1,17 +1,9 @@
-import React from 'react';
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-
-function Home() {
-    return (
+function Home(){
+    return(
         <>
-            <Header />
-            <section className='container'>
-                Olá, sou Cajarana BET
-            </section>
-            <Footer />
+            <h1>Essa é tela do home</h1>
         </>
-    );
+    )
 }
 
-export default Home;
+export default Home

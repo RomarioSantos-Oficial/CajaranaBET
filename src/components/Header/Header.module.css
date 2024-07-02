@@ -9,7 +9,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    min-width: 60vh;
 }
+
+
 
 .header a {
     align-items: center;
@@ -26,8 +29,11 @@
 }
 
 .logo {
+    min-height: 20%;
+    display: flex;
+    align-items: center;
     cursor: pointer;
-    height: 4rem;
+    height: 3.5rem;
     transition: transform 0.3s ease;
 }
 
